@@ -16,6 +16,11 @@ section{padding:70px 0;scroll-margin-top:75px}.kicker{color:var(--cyan);font-siz
 @media(max-width:760px){.skills-grid{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr;padding:65px 0 45px;gap:12px}.hero-art{min-height:245px}.orb{width:185px;height:185px}.orb b{font-size:4rem}.about-grid,.projects{grid-template-columns:1fr}.interests{grid-template-columns:1fr}.section-top{display:block}.section-top .sub{margin-top:8px}.preview{height:185px}}
 @media(max-width:430px){.wrap{width:calc(100% - 28px)}nav{height:62px}.navlinks{gap:10px;font-size:.74rem}.hero p{font-size:1rem}section{padding:55px 0}.panel,.project-body{padding:19px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.db-status{color:var(--muted);font-size:.88rem;margin:-12px 0 18px}
+.db-project-preview{height:195px;padding:18px;background:linear-gradient(135deg,#151d38,#201747);display:grid;place-items:center}
+.db-project-mark{width:90%;height:100%;border:1px solid #ffffff33;border-radius:12px;background:#080b14;display:grid;place-items:center;text-align:center;color:#c4b5fd;font:700 1.25rem 'Space Grotesk';padding:12px}
+.db-project-link{display:inline-block;margin-top:15px;color:#a5c8ff;font-weight:700;font-size:.9rem}
 </style>
 </head>
 <body>
@@ -24,12 +29,71 @@ section{padding:70px 0;scroll-margin-top:75px}.kicker{color:var(--cyan);font-siz
 <section class="hero" id="inicio"><div><span class="eyebrow"><i class="dot"></i> Portafolio personal · Estudiante</span><h1>Hola, soy<br><span class="gradient">Nicolas PAPO.</span></h1><p class="fullname">Nicolas Alejandro Chicaiza Changoluisa</p><p>Estudiante y desarrollador en formación. Estoy aprendiendo a crear ideas digitales con tecnología, programación y creatividad.</p><div class="actions"><a class="btn primary" href="#proyectos">Ver mis proyectos ↗</a><a class="btn" href="https://github.com/PAPO2027" target="_blank" rel="noreferrer">Mi GitHub ↗</a></div></div><div class="hero-art"><div class="orb"><b>P</b></div><span class="float f1">⌘ Código & creatividad</span><span class="float f2">✦ Ideas en construcción</span></div></section>
 <section id="sobre-mi"><div class="section-top"><div><div class="kicker">01 / Presentación</div><h2>Un poco sobre mí</h2></div><p class="sub">Aprender, experimentar y construir son parte de mi camino.</p></div><div class="about-grid"><article class="panel"><h3>¿Quién soy?</h3><p>Soy Nicolas, aunque también me conocen como PAPO. Soy estudiante y desarrollador en formación. Me considero una persona creativa y amigable, con curiosidad por la tecnología y muchas ganas de aprender. Me gusta experimentar, resolver problemas y convertir mis ideas en proyectos.</p><div class="statrow"><span class="stat">💻 Desarrollo web</span><span class="stat">🎮 Videojuegos</span><span class="stat">🚀 Aprendizaje</span></div></article><article class="panel"><h3>Mi camino</h3><p>Estoy construyendo mis conocimientos paso a paso. Mi objetivo es seguir practicando, mejorar mis habilidades y crear proyectos útiles que puedan compartir y disfrutar otras personas.</p></article></div></section>
 <section id="intereses"><div class="section-top"><div><div class="kicker">02 / Lo que me mueve</div><h2>Mis intereses</h2></div><p class="sub">Temas que despiertan mi curiosidad y me motivan a seguir aprendiendo.</p></div><div class="interests"><article class="interest"><div class="ico">💻</div><h3>Programación y desarrollo web</h3><p>Me gusta crear páginas con HTML, CSS y JavaScript, y descubrir cómo hacer que una web sea interactiva.</p></article><article class="interest"><div class="ico">🎮</div><h3>Videojuegos</h3><p>Me interesa jugar y entender sus mecánicas. Snake Evolution fue una oportunidad para crear uno propio.</p></article><article class="interest"><div class="ico">🌐</div><h3>Tecnología y nuevas herramientas</h3><p>Quiero aprender a usar GitHub, Vercel y Supabase para construir proyectos conectados y compartirlos en Internet.</p></article></div></section>
-<section id="habilidades"><div class="section-top"><div><div class="kicker">03 / En aprendizaje</div><h2>Mis habilidades</h2></div><p class="sub">Estas son algunas de las áreas que estoy aprendiendo y practicando. Cada proyecto es una oportunidad para seguir mejorando.</p></div><div class="skills-grid"><article class="skill"><div class="skill-icon">🌐</div><strong>HTML</strong><span>Estructura de páginas web</span></article><article class="skill"><div class="skill-icon">🎨</div><strong>CSS</strong><span>Diseño y estilos visuales</span></article><article class="skill"><div class="skill-icon">⚡</div><strong>JavaScript</strong><span>Interactividad y lógica</span></article><article class="skill"><div class="skill-icon">🐍</div><strong>Python</strong><span>Fundamentos de programación</span></article><article class="skill"><div class="skill-icon">🖌️</div><strong>Diseño</strong><span>Creatividad y presentación</span></article><article class="skill"><div class="skill-icon">💻</div><strong>Programación</strong><span>Resolución de problemas</span></article><article class="skill"><div class="skill-icon">🗄️</div><strong>Bases de datos</strong><span>Organización de información</span></article></div></section><section id="proyectos"><div class="section-top"><div><div class="kicker">04 / Trabajo realizado</div><h2>Mis proyectos</h2></div><p class="sub">Proyectos en los que he practicado programación, lógica y desarrollo de experiencias interactivas.</p></div><div class="projects">
-<article class="project"><div class="preview"><div class="screen"><div class="snake-title">🐍 SNAKE EVOLUTION</div><div class="board"><div class="snake"></div><span class="fruit">🐔</span></div><small style="color:#9ca3af">Come · Crece · Sobrevive</small></div></div><div class="project-body"><div class="project-head"><h3>Proyecto 1 — Snake Evolution</h3><span class="pill">Videojuego</span></div><p>Un juego inspirado en Snake donde el jugador controla una serpiente, recoge gallinas, aumenta su puntuación y avanza por niveles de dificultad. Está pensado para quienes disfrutan de retos arcade.</p><div class="detail"><strong>¿Cómo está hecho?</strong><p>Está desarrollado con HTML, CSS y JavaScript, y publicado mediante GitHub Pages. JavaScript se ejecuta en el navegador y controla el movimiento, las colisiones, los niveles, las vidas y los potenciadores. No usa una base de datos; el récord se mantiene durante la sesión.</p></div><div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub Pages</span></div><a class="project-link" href="https://papo2027.github.io/PROYECTO-1/" target="_blank" rel="noreferrer">Abrir proyecto publicado ↗</a></div></article>
-<article class="project"><div class="preview"><div class="pool"><i class="pocket tl"></i><i class="pocket tr"></i><i class="pocket bl"></i><i class="pocket br"></i><i class="ball ba"></i><i class="ball bb"></i><i class="ball bc"></i><i class="cue"></i></div></div><div class="project-body"><div class="project-head"><h3>Proyecto 2 — MESA 8</h3><span class="pill">Multijugador</span></div><p>Un juego de billar multijugador inspirado en 8 Ball Pool, donde dos jugadores pueden compartir una partida, tomar turnos y competir siguiendo las reglas del juego.</p><div class="detail"><strong>¿Cómo está hecho?</strong><p>El proyecto utiliza Vercel para publicar la aplicación y Supabase Realtime para sincronizar información de la partida entre jugadores. La lógica y las físicas se ejecutan en el navegador; la comunicación en tiempo real comparte el estado del juego. La autenticación se trabajó con Supabase Auth, mientras que algunas estadísticas y monedas se guardan localmente mediante localStorage.</p></div><div class="tech"><span>JavaScript</span><span>Vercel</span><span>Supabase</span><span>Realtime</span></div><a class="project-link" href="https://github.com/PAPO2027/LAB-2" target="_blank" rel="noreferrer">Ver repositorio del proyecto ↗</a><p style="font-size:.8rem;margin-bottom:0">No tengo confirmada la URL pública de Vercel de la versión final, por eso dejo el repositorio.</p></div></article>
-</div></section>
-<section><div class="panel note"><div class="ico">🎨</div><div><div class="kicker">05 / Decisión de diseño</div><h3>Sobre este sitio</h3><p>Elegí una combinación de azul oscuro, morado y celeste porque transmite una sensación tecnológica y mantiene un buen contraste para leer. Organicé la información en secciones y tarjetas para que los proyectos sean fáciles de encontrar en computadora y celular.</p></div></div></section>
+<section id="habilidades"><div class="section-top"><div><div class="kicker">03 / En aprendizaje</div><h2>Mis habilidades</h2></div><p class="sub">Estas son algunas de las áreas que estoy aprendiendo y practicando. Cada proyecto es una oportunidad para seguir mejorando.</p></div><div class="skills-grid"><article class="skill"><div class="skill-icon">🌐</div><strong>HTML</strong><span>Estructura de páginas web</span></article><article class="skill"><div class="skill-icon">🎨</div><strong>CSS</strong><span>Diseño y estilos visuales</span></article><article class="skill"><div class="skill-icon">⚡</div><strong>JavaScript</strong><span>Interactividad y lógica</span></article><article class="skill"><div class="skill-icon">🐍</div><strong>Python</strong><span>Fundamentos de programación</span></article><article class="skill"><div class="skill-icon">🖌️</div><strong>Diseño</strong><span>Creatividad y presentación</span></article><article class="skill"><div class="skill-icon">💻</div><strong>Programación</strong><span>Resolución de problemas</span></article><article class="skill"><div class="skill-icon">🗄️</div><strong>Bases de datos</strong><span>Organización de información</span></article></div></section><section id="proyectos"><div class="section-top"><div><div class="kicker">04 / Trabajo realizado</div><h2>Mis proyectos</h2></div><p class="sub">Proyectos en los que he practicado programación, lógica y desarrollo de experiencias interactivas.</p></div><p id="db-status" class="db-status" role="status">Conectando con la base de datos...</p>
+<div class="projects" id="projects-grid" aria-live="polite"><article class="project"><div class="project-body"><p>Cargando proyectos...</p></div></article></div></section>
+</div></main></div></section>
 </div></main>
 <footer><div class="wrap foot"><span>© 2026 Nicolas PAPO · Portafolio personal</span><a href="https://github.com/PAPO2027" target="_blank" rel="noreferrer">GitHub ↗</a></div></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0/dist/umd/supabase.min.js"></script>
+<script>
+(() => {
+  const status = document.getElementById('db-status');
+  const grid = document.getElementById('projects-grid');
+  const SUPABASE_URL = 'https://mwuuoyrwdjhsolxqxekm.supabase.co';
+  const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_jHNnq1vv-z9Mx9QpVOYB8Q_gbh3Bxby';
+  const client = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+
+  function make(tag, className, text) {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    if (text !== undefined) element.textContent = text;
+    return element;
+  }
+
+  async function loadProjects() {
+    try {
+      const { data, error } = await client
+        .from('portfolio_projects')
+        .select('id,title,category,description,technologies,project_url')
+        .order('id');
+      if (error) throw error;
+      grid.replaceChildren();
+      data.forEach((project, index) => {
+        const card = make('article', 'project');
+        const preview = make('div', 'db-project-preview');
+        const mark = make('div', 'db-project-mark', index === 0 ? '🐍 SNAKE EVOLUTION' : '🎱 MESA 8');
+        preview.append(mark);
+        const body = make('div', 'project-body');
+        const head = make('div', 'project-head');
+        head.append(make('h3', '', project.title), make('span', 'pill', project.category));
+        body.append(head, make('p', '', project.description));
+        body.append(make('div', 'detail'));
+        const detail = body.lastElementChild;
+        detail.append(make('strong', '', 'Información del proyecto'), make('p', '', 'Este contenido se obtiene directamente de la base de datos de Supabase.'));
+        const tech = make('div', 'tech');
+        (project.technologies || []).forEach(item => tech.append(make('span', '', item)));
+        body.append(tech);
+        if (project.project_url) {
+          const link = make('a', 'db-project-link', 'Abrir proyecto ↗');
+          link.href = project.project_url;
+          link.target = '_blank';
+          link.rel = 'noreferrer';
+          body.append(link);
+        }
+        card.append(preview, body);
+        grid.append(card);
+      });
+      status.textContent = '✓ Proyectos cargados desde Supabase.';
+    } catch (error) {
+      console.error('No se pudieron cargar los proyectos:', error);
+      status.textContent = 'No se pudieron cargar los proyectos desde Supabase. Intenta actualizar la página.';
+      grid.replaceChildren(make('article', 'project', 'No fue posible cargar los proyectos.'));
+    }
+  }
+  loadProjects();
+})();
+</script>
+
 </body></html>
 <!-- Actualización para volver a ejecutar la publicación de GitHub Pages -->
